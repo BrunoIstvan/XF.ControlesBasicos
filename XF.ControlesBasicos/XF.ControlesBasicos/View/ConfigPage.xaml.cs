@@ -16,8 +16,6 @@ namespace XF.ControlesBasicos
 		{
 			InitializeComponent ();
 
-            BindingContext = App.ConfigVM;
-
 		}
 	}
 }

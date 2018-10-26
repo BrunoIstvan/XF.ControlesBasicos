@@ -7,9 +7,18 @@ namespace XF.ControlesBasicos.App_Code
     public class Configuracao
     {
 
-        public bool PermitirReceberEmail { get; set; }
+        //private bool permitirReceberEmail;
 
-        public string Email { get; set; }
+        //public bool PermitirReceberEmail
+        //{
+        //    get { return permitirReceberEmail; }
+        //    set {
+        //        permitirReceberEmail = value;
+        //        if (!permitirReceberEmail) Email = string.Empty; 
+        //    }
+        //}
+
+        //public string Email { get; set; }
 
     }
 }
