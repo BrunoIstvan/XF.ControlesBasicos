@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.ControlesBasicos"
+             x:Class="XF.ControlesBasicos.MainPage">
+
+    <ContentPage.Content>
+    
+        <StackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            
+            <!-- Place new controls here -->
+    	    <Button Text="Enviar" 
+                x:Name="btnEnviar"
+                    Command="{Binding OnEnviar}"/>
+
+            <!-- Place new controls here -->
+            <Button Text="Configuração" 
+                x:Name="btnConfiguracao" 
+                    Command="{Binding OnConfiguracao}" />
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>
